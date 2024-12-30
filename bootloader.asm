@@ -1,0 +1,10 @@
+mov eax,cr0
+or eax,1
+mov cr0,eax
+mov ax,10h
+mov ds,ax
+mov es,ax
+mov fs,ax
+mov gs,ax
+mov ss,ax
+jmp 8:10000h
