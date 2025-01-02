@@ -13,4 +13,4 @@ def save_keys(filename, num_keys, key_length):
             file.write(key + '\n')
 
 # Example usage
-save_keys('keys.txt', 100, 16)
+save_keys('key.txt', 100, 16)
