@@ -20,7 +20,7 @@ section .data
 
 section .text
     global _start
-
+    mov eax, [system_call_address]
 _start:
     ; Initialize video mode (replace with your video card setup)
     mov ax, 0x0013 ; Set video mode 320x200 256 colors
